@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.moreno.fartbomb">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:name="com.moreno.fartbomb.FartbombApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/fartbomb_icon"
+        android:label="@string/app_name">
+        
+        <activity 
+            android:name="com.moreno.fartbomb.ContactActivity"
+            android:theme="@style/FartbombSettings" />
+        
+        <activity
+            android:name="com.moreno.fartbomb.DisclaimerActivity"
+            android:theme="@style/FartbombSettings" />
+        
+        <activity
+            android:name="com.moreno.fartbomb.ProfileActivity"
+            android:theme="@style/FartbombSettings"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.moreno.fartbomb.SignupActivity"
+            android:theme="@style/FartbombTheme" />
+        
+        <activity
+            android:name="com.moreno.fartbomb.SettingsActivity"
+            android:label="@style/FartbombSettings" />
+        
+        <activity
+            android:name="com.moreno.fartbomb.FindFriendsActivity"
+            android:theme="@style/FartbombSettings"
+            android:screenOrientation="portrait" />
+        
+        <activity
+            android:name="com.moreno.fartbomb.ForgottenUserActivity"
+            android:theme="@style/FartbombTheme" />
+        
+        <activity
+            android:name="com.moreno.fartbomb.LoginActivity"
+            android:theme="@style/FartbombTheme" />
+        
+        <activity
+            android:name="com.moreno.fartbomb.FartHallActivity"
+            android:theme="@style/FartbombSettings"
+            android:screenOrientation="portrait" />
+               
+        <activity
+            android:name="com.moreno.fartbomb.PlaybackActivity"
+            android:theme="@style/FartbombLightTheme"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.moreno.fartbomb.SaveFileDialog"
+            android:theme="@style/FartBombDialog" />
+        
+        <activity
+            android:name="com.moreno.fartbomb.SQLActivity"
+            android:theme="@style/FartbombSettings" />
+        
+         <activity
+            android:name="com.moreno.fartbomb.ViewFriendActivity"
+            android:theme="@style/FartbombSettings"
+            android:screenOrientation="portrait" />
+         
+         <service 
+             android:name="network.NotificationService"
+             android:icon="@drawable/fartbomb_icon"
+             android:process=":FBNotification"
+             android:label="NotificationService"/>
+
+        <provider
+            android:name="com.moreno.fartbomb.provider.FartBombProvider"
+            android:authorities="com.moreno.fartbomb.provider.FartBombProvider"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

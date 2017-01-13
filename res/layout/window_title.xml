@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_gravity="center_vertical"
+    android:paddingLeft="5dip"
+    android:background="@color/frog_green" >
+            
+    
+    <ImageView        
+        android:src="@drawable/fartbomb_title"
+        android:layout_width="280dp"
+        android:layout_height="190dp"
+        android:contentDescription="@string/imgDescLogo"
+        android:layout_centerInParent="true"/>
+    
+
+</RelativeLayout>

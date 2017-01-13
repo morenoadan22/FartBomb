@@ -1,0 +1,53 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Account">
+        <EditTextPreference 
+            android:title="Username"
+            android:key="user_name"
+            android:summary=""            
+            android:selectable="false"/>
+        <Preference
+            android:title="E-mail"
+            android:key="email"
+            android:summary="" />
+        <Preference
+            android:title="Phone Number"
+            android:key="phone"
+            android:summary="" />                                             
+        <Preference 
+                android:title="Logoff"
+                android:summary="Log out of fartbomb"
+                android:key="logoff" />
+        <SwitchPreference 
+            android:title="Push Notifications"
+            android:summary="Receive phone notifications from the fartbomb application."
+            android:key="notifications" />        
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Support">
+        <Preference
+            android:title="Contact Us"
+            android:summary="Send us at fartbomb an email."
+            android:key="contact" >
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.moreno.fartbomb.ContactActivity"
+                android:targetPackage="com.moreno.fartbomb" />                        
+        </Preference>
+        <Preference 
+            android:title="Terms of Use"
+            android:summary="View the fartbomb disclaimer"
+            android:key="terms">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.moreno.fartbomb.DisclaimerActivity"
+                android:targetPackage="com.moreno.fartbomb" />
+        </Preference>
+        <Preference 
+            android:title="Debug View"
+            android:summary="View for helping developers debug the application.">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetClass="com.moreno.fartbomb.SQLActivity"
+                android:targetPackage="com.moreno.fartbomb" />
+        </Preference>        
+    </PreferenceCategory>   
+</PreferenceScreen>

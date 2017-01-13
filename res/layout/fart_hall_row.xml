@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"       
+    android:background="@drawable/rounded_row" >  
+    
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textStyle="bold"
+        android:textSize="16sp"               
+        android:textColor="@color/frog_green" />
+    
+    <TextView
+        android:id="@+id/txtBombCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+    
+    <TextView
+        android:id="@+id/txtRatingSum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

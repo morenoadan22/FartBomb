@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="light_beige">#EFECE3</color>
+    <color name="beige">#E9E5D9</color>
+    <color name="frog_green">#91C84B</color>
+    <color name="highlight">#FFFFCC</color>
+    <color name="holo_blue_bright">#1e90ff</color>
+    <color name="holo_blue_dark">#1874cd</color>  
+    <color name="holo_blue_light">#5cacee</color>  
+    <color name="light_grey">#BDBDBD</color>
+    <color name="red">#DF0101</color>     
+    <color name="white">#ffffff</color>    
+</resources>

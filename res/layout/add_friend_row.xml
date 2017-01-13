@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"       
+    android:background="@drawable/rounded_row" >
+    
+    
+    
+    <TextView
+        android:id="@+id/txtFriendName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textStyle="bold"        
+        android:textColor="@color/frog_green" />
+    
+    <ImageView
+        android:id="@+id/btnAddFriend"
+        android:layout_width="35dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"        
+        android:contentDescription="@string/imgDescBtnBack" />
+    
+    <ImageView
+        android:id="@+id/btnDenyRequest"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/btn_deny_friend"
+        android:contentDescription="@string/imgDescBtnBack"
+        android:visibility="gone"/>
+    
+    
+    <ImageView
+        android:id="@+id/btnAcceptRequest"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/btn_accept_friend"
+        android:contentDescription="@string/imgDescBtnBack"
+        android:visibility="gone"/>
+    
+</RelativeLayout>

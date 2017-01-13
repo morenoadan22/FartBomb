@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FartBomb</string>
+    <string name="app_id">1454032544842747</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnSend">SEND</string> 
+    <string name="btnSubmit">SUBMIT</string>    
+    <string name="btnRate">Rate</string> 
+    <string name="enter_query_here">Enter query here.</string> 
+    <string name="headerName">NAME</string>
+    <string name="headerBombs">BOMBS</string>
+    <string name="headerRating">RATING</string> 
+    <string name="hintBombName">give it a name&#8230;</string>
+    <string name="hintConfirmPass">CONFIRM PASSWORD</string>
+    <string name="hintEmail">EMAIL</string>
+    <string name="hintForgottenPassword">ENTER YOUR EMAIL ADDRESS TO RECOVER YOUR USERNAME AND PASSWORD</string>
+    <string name="hintPassword">PASSWORD</string>
+    <string name="hintPhoneNumber">PHONE NUMBER</string>
+    <string name="hintSearchFriends">search by username</string>
+    <string name="hintSubject">SUBJECT</string>
+    <string name="hintText">TEXT</string>
+    <string name="hintUserName">USERNAME</string>
+    <string name="imgDescBtnBack">Back to Settings Screen</string>
+    <string name="imgDescBtnHome">Back to the Home Screen</string>
+    <string name="imgDescBtnPlay">Play Bomb</string>
+    <string name="imgDescBtnSend">Send an email</string>
+    <string name="imgDescBtnSubmit">Login to your account.</string>
+    <string name="imgDescBtnFriend">Friends</string>
+    <string name="imgDescBtnRecord">Record Fart</string>
+    <string name="imgDescBtnSettings">Settings</string>
+    <string name="imgDescLogo">FARTBOMB</string>
+    <string name="lblFriends">FRIENDS</string>
+    <string name="lblBombs"> BOMBS </string>
+    <string name="lblRating">RANK</string>
+    <string name="loading">Loading....</string>
+    <string name="prgLogin">Logging in to FartBomb.\nPlease wait…</string>
+    <string name="prgUploading">Uploading your bomb…</string>
+    <string name="prgSendingEmail">Looking up email information.\nPlease wait…</string>
+    <string name="txtBusiness">FOR BUSINESS OPPORTUNITIES, PLEASE CONTACT US SUPPORT@FARTBOMB.NET</string>
+    <string name="txtEnterEmail">ENTER YOUR EMAIL</string>
+    <string name="txtExistingUser">ALREADY A USER?</string>
+    <string name="txtForgot">FORGOT USERNAME OR PASSWORD?</string>
+    <string name="txtQuestions">QUESTIONS OR COMMENTS?</string>
+    <string name="txtSignIn">SIGN IN!</string>
+    <string name="txtSignUp">SIGN UP!</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_fartbomb">fartbomb</string>
+    <string name="title_fart_hall">HALL OF FARTS</string>
+    <string name="title_bombs">MY BOMBS</string>
+    <string name="title_find_friends">FIND FRIENDS</string>
+    <string name="title_friends">FRIENDS</string>
+    <string name="title_activity_contact">CONTACT US</string>
+    <string name="title_activity_disclaimer">DISCLAIMER</string>
+    <string name="title_activity_forgotten_user">ForgottenUserActivity</string>
+    <string name="title_activity_playback">PlaybackActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_logoff">Logoff</string>
+    
+</resources>

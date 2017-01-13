@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >                     
+        
+        
+       <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"      
+            tools:context=".LoginActivity" >
+            
+            <ImageView
+             android:id="@+id/btnBack"
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+             android:src="@drawable/arrow"
+             android:layout_margin="10dp"
+             android:contentDescription="@string/imgDescBtnBack"/>
+        
+            <TextView        
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="15dp"
+                android:text="@string/txtSignIn"
+                android:textSize="@dimen/text_size"
+                android:layout_gravity="left" />
+            
+            
+            <EditText
+                android:id="@+id/etxUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_margin="15dp"   
+                android:singleLine="true"     
+                android:background="@drawable/rounded_corner"            
+                android:hint="@string/hintUserName"
+                android:ems="8" />
+        
+            <EditText
+                android:id="@+id/etxPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:singleLine="true"
+                android:layout_margin="15dp"
+                android:background="@drawable/rounded_corner"        
+                android:hint="@string/hintPassword"        
+                android:inputType="textPassword" />
+            
+        
+            <TextView
+                android:id="@+id/txtForgot"
+                android:layout_width="135dp"        
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:textSize="@dimen/text_size_small"
+                android:clickable="true"
+                android:layout_gravity="right"
+                android:text="@string/txtForgot" />
+            
+           
+            
+            <ImageButton
+                android:id="@+id/btnSubmit"
+                android:layout_width="103dp"
+                android:layout_height="103dp"
+                android:layout_gravity="center"        
+                android:contentDescription="@string/imgDescBtnSubmit"
+                android:src="@drawable/btn_submit" />
+                     
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

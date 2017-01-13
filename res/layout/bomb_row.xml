@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="65dp"
+    android:orientation="horizontal"
+    android:background="@drawable/rounded_row" >
+    
+    
+    <LinearLayout
+        android:id="@+id/playLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal" >
+    
+        <ImageView
+                android:id="@+id/btnPlay"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/btn_play"
+                android:visibility="gone"
+                android:layout_marginRight="2dp"
+                android:contentDescription="@string/imgDescBtnPlay"
+                android:layout_gravity="center" />    
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+                                       
+            <TextView 
+                android:id="@+id/txtName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="19sp"                
+                android:textColor="@color/frog_green"/>
+            
+            <TextView
+                android:id="@+id/txtLenght"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"                
+                android:textSize="@dimen/text_size_small"/>
+            
+        </LinearLayout>    
+    </LinearLayout>
+        
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_small"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@id/playLayout" />
+    
+    <TextView
+        android:id="@+id/txtRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"        
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+    
+
+</RelativeLayout>

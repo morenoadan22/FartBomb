@@ -1,0 +1,57 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="FartbombSettings" parent="android:Theme.DeviceDefault.Light">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowBackground">@color/beige</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <style name="FartBombDialog" parent="android:Theme.Holo.Light.Dialog" >
+        <item name="android:windowBackground">@color/beige</item>
+    </style>
+    
+    
+    <style name="FartbombTheme" parent="android:Theme.Holo.Light">
+        <item name="android:windowTitleSize">100dp</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowBackground">@color/beige</item>            
+        <item name="android:textOff">true</item>   
+        <item name="android:windowTitleBackgroundStyle">@style/FartbombTitle</item>                               
+    </style>
+    
+    <style name="FartbombLightTheme" parent="android:Theme.Light">
+       <item name="android:windowTitleSize">100dp</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowBackground">@color/light_beige</item>            
+        <item name="android:textOff">true</item>   
+        <item name="android:windowTitleBackgroundStyle">@style/FartbombTitle</item> 
+    </style>
+    
+    <style name="FartbombTitle">
+        <item name="android:background">@color/frog_green</item>          
+    </style>
+    
+    <style name="FartRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/fart_rating_full</item>
+        <item name="android:minWidth">24dp</item>
+        <item name="android:maxWidth">24dp</item>  
+    </style>
+
+</resources>
